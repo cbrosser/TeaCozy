@@ -25,12 +25,25 @@ nav a {
   color: seashell;
   padding: 10px;
 }
+.main {
+  flex-direction: column;
+  align-items: center;
+}
+.label {
+  background-color: black;
+}
 #mission {
-
+  height: 700px;
+  background-image: url("img-mission-background.jpg");
+  display: inline-flex;
+  align-items: center;
+}
+#mission .label {
+  width: 1200px;
 }
 #featured {
 
 }
 #locations {
-  
+
 }
