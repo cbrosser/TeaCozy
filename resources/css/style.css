@@ -1,0 +1,36 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+nav {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+nav a {
+  color: seashell;
+  padding: 10px;
+}
+#mission {
+
+}
+#featured {
+
+}
+#locations {
+  
+}
