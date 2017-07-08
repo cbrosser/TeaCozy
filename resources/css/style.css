@@ -1,3 +1,5 @@
+/* Universal Styles */
+
 html {
   font-family: Helvetica;
   font-size: 22px;
@@ -6,6 +8,13 @@ html {
   opacity: 0.9;
   text-align: center;
 }
+.label {
+  background-color: black;
+  opacity: 1;
+}
+
+/* Header */
+
 header {
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -15,7 +24,7 @@ header {
 }
 header img {
   height: 50px;
-  padding-left: 10px;
+  margin-left: 10px;
 }
 nav {
   display: inline-flex;
@@ -23,17 +32,19 @@ nav {
 }
 nav a {
   color: seashell;
-  padding: 10px;
+  margin: 10px;
 }
+
+/* Main Content Container */
+
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.label {
-  background-color: black;
-  opacity: 1;
-}
+
+/* Mission Section */
+
 #mission {
   height: 700px;
   width: auto;
@@ -44,6 +55,9 @@ nav a {
 #mission .label {
   width: 1200px;
 }
+
+/* Featured Section */
+
 #featured {
   height: auto;
   width: 1000px;
@@ -69,6 +83,9 @@ nav a {
 .container h4 {
   margin-top: 10px;
 }
+
+/* Locations Section */
+
 #locations {
   height: 500px;
   width: 1200px;
@@ -89,6 +106,16 @@ nav a {
   width: 300px;
   margin: 0px 20px;
 }
+
+/* Contact Information */
+
 .contact {
   height: 200px;
+}
+
+/* Footer */
+
+footer {
+  margin-left: 20px;
+  text-align: left;
 }
