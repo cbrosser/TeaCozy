@@ -45,7 +45,7 @@ nav a {
   width: 1200px;
 }
 #featured {
-  height: 700px;
+  height: auto;;
   width: 1000px;
   display: flex;
   flex-direction: column;
@@ -55,12 +55,15 @@ nav a {
   justify-content: center;
   flex-wrap: wrap;
 }
-.items div {
-  height: 200px;
-  width: 300px;
+.container {
+  height: auto;
+  width: auto;
   display: flex;
   flex-direction: column;
-  border: 1px solid white;
+}
+.container img {
+  height: 200px;
+  width: 300px;
 }
 #locations {
   height: 500px;
