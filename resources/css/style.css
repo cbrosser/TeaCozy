@@ -21,6 +21,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: black;
+  top: 0px;
 }
 header img {
   height: 50px;
@@ -41,6 +46,8 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  top: 62px;
 }
 
 /* Mission Section */
